@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+}
+.title{
+    font-size: 3.2em;
+    font-weight: 700 ;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+.game-image{
+   border-radius: 400px; 
+   background-color: transparent;
+   width: 250px;
+   height: 250px;
+   border: solid;
+   border-color: #fff;
+   margin-right: 12px;
+   cursor: pointer;
+   margin-left: 16px;
+}
+.reset-button,
+.autoplay-button{
+    padding: 20px 30px;
+     border-radius: 25px;
+     border: none;
+     font-size: 1.2em;
+     font-weight: 800;
+     margin-left: 16px;
+}
+.result,
+.moves{
+  font-size: 2.0em;
+  margin-top: 26px;
+  margin-left: 16px;  
+}
+.score{
+    margin-top:30px ;
+}
